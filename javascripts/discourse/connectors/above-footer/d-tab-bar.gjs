@@ -30,10 +30,6 @@ export default class DTabBar extends Component {
     return htmlSafe(`width: ${percentage}%;`);
   }
 
-  get chat_page_opened() {
-    return document.body.classList.contains("has-full-page-chat");
-  }
-
   scrollListener() {
     const scrollTop = window.scrollY;
     const body = document.body;
@@ -73,7 +69,7 @@ export default class DTabBar extends Component {
   }
 
   <template>
-    {{#if (and this.currentUser this.site.mobileView this.tabs.length this.chat_page_opened}}
+    {{#if (and this.currentUser this.site.mobileView this.tabs.length}}
       <div
         class="d-tab-bar"
         {{didInsert this.setupScrollListener}}
