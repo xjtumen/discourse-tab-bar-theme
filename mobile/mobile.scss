@@ -94,3 +94,13 @@ body.tab-bar-hidden {
 body:not(.footer-nav-ipad) .footer-nav {
   display: none;
 }
+
+
+//https://meta.discourse.org/t/discourse-tab-bar-for-mobile/75696/155
+.chat-composer__wrapper {
+  margin-bottom: 35px
+}
+
+.c-footer {
+  margin-bottom: 35px
+}
