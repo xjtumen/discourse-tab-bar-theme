@@ -4,29 +4,29 @@ display_icon_titles:
     en: "Display titles"
 
 icons_size:
-  default: 1.2
+  default: 1.5
   description:
     en: "This setting changes the CSS font-size property of the icons (unit is em)"
 
 tab_1_settings:
-  default: "Home, home, /"
+  default: "主页, home, /"
   description:
     en: "Format is: <code>&lt;title&gt;, &lt;FA5 icon&gt;, &lt;relative url or route name&gt;, &lt;enabled? default true (optional)&gt;</code>"
 
 tab_2_settings:
-  default: "Profile, user, userActivity.index"
+  default: "个人, user, userActivity"
 
 tab_3_settings:
-  default: "Messages, envelope, userPrivateMessages.user.index"
+  default: "私信, envelope, userPrivateMessages"
 
 tab_4_settings:
-  default: "Bookmarks, bookmark, userActivity.bookmarks"
+  default: "收藏, bookmark, userActivity.bookmarks"
 
 tab_5_settings:
-  default: "Preferences, cog, preferences.account"
+  default: "个性化, cog, preferences"
 
 tab_6_settings:
-  default: "Notifications, comment, userNotifications.index, false"
+  default: "Notifications, comment, userNotifications, false"
 
 extend_fa5_icons:
   type: list
