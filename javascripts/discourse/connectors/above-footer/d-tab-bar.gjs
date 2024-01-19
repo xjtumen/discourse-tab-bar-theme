@@ -69,7 +69,7 @@ export default class DTabBar extends Component {
   }
 
   <template>
-    {{#if (and this.currentUser this.site.mobileView this.tabs.length}}
+    {{#if (and this.currentUser this.site.mobileView this.tabs.length)}}
       <div
         class="d-tab-bar"
         {{didInsert this.setupScrollListener}}
