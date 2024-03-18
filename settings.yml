@@ -9,7 +9,7 @@ icons_size:
     en: "This setting changes the CSS font-size property of the icons (unit is em)"
 
 tab_1_settings:
-  default: "主页, home, /"
+  default: "聊天, comment, /chat"
   description:
     en: "Format is: <code>&lt;title&gt;, &lt;FA5 icon&gt;, &lt;relative url or route name&gt;, &lt;enabled? default true (optional)&gt;</code>"
 
@@ -17,16 +17,16 @@ tab_2_settings:
   default: "个人, user, userActivity"
 
 tab_3_settings:
-  default: "私信, envelope, userPrivateMessages"
+  default: "主页, home, /"
 
 tab_4_settings:
-  default: "收藏, bookmark, userActivity.bookmarks"
-
-tab_5_settings:
   default: "个性化, cog, preferences"
 
+tab_5_settings:
+  default: "私信, envelope, userPrivateMessages"
+
 tab_6_settings:
-  default: "Notifications, comment, userNotifications, false"
+  default: "收藏, bookmark, userActivity.bookmarks"
 
 extend_fa5_icons:
   type: list
