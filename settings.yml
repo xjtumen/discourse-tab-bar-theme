@@ -17,10 +17,10 @@ tab_2_settings:
   default: "个人, user, userActivity"
 
 tab_3_settings:
-  default: "主页, home, /"
+  default: "主页, house, /"
 
 tab_4_settings:
-  default: "个性化, cog, preferences"
+  default: "个性化, gear, preferences"
 
 tab_5_settings:
   default: "私信, envelope, userPrivateMessages"
